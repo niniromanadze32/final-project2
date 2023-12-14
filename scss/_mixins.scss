@@ -8,3 +8,8 @@
         justify-content: center;
         margin-left: 73px;
 }
+@mixin theme{
+        display: inline-block;
+        margin-left: 130px;
+        margin-top: 35px;
+    }
