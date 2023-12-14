@@ -1,0 +1,124 @@
+
+
+/* Header styles */
+header {
+    background-color: rgb(3, 3, 3);
+    padding: 1rem 0;
+    height: 57px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-top: -13px;
+   
+}
+.nav-item {
+    padding: 0 1rem;
+    vertical-align: middle;
+    
+}
+
+.nav-item{ a {
+    color: white;
+    text-decoration: none;
+    font-family: "BPG Banner SuperSquare", sans-serif;
+    font-weight: 75px;
+    vertical-align: middle;
+    
+}}
+.nav-item a:hover {
+    font-size: 20px;
+    color: red;}
+.search-input {
+       
+        margin-left: 93px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 70px;
+        outline: none;
+        transition: box-shadow 0.3s ease;
+        vertical-align: middle;
+    }
+
+
+    
+ .search-input:hover {
+        box-shadow: 0 2px 5px rgba(236, 16, 16, 0.863);
+    }
+    
+ .carousel-inner{
+    height: 530px;
+ }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-item {
+        padding: 0.5rem 0;
+    }
+}
+.Email{
+    width: 227px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.Phone{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.Location{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.contacts{
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 37px;
+}
+
+.circle {
+img{ @include image;
+
+}}
+.circle :hover{
+    width: 135px;
+    height: 135px;
+    
+}
+.contacts{
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+        color:  rgba(78, 77, 84, 1);
+        display: flex;
+        justify-content: center;}
+    h4{
+        font-size: 25px;
+        font-weight: 700;
+        color: rgba(153, 153, 154, 1);
+        display: flex;
+        justify-content: center;}
+}
+.line{
+    width: 300px;
+    height: 3px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
